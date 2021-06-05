@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/nagwans1/IdeaProjects/Python_Masterclass/FirstJenkinProject"><classes><class name="jenkin.demo.Test_App"><methods><include name="test_app"/></methods></class><class name="uk.testng.session.Test_App"><methods><include name="test_app"/></methods></class></classes></test></suite>
