@@ -1,6 +1,6 @@
 package demo;
 
-public class App_Class {
+public class TestAppClass {
 
     public void app(){
         System.out.println("My First Jenkins project");

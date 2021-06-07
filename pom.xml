@@ -8,11 +8,12 @@
     <artifactId>FirstJenkinProject</artifactId>
     <version>1.0-SNAPSHOT</version>
     <dependencies>
+
+
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>RELEASE</version>
-            <scope>test</scope>
+            <version>4.13.2</version>
         </dependency>
         <dependency>
             <groupId>org.testng</groupId>
@@ -21,6 +22,13 @@
         </dependency>
 
     </dependencies>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
 
 
 </project>
