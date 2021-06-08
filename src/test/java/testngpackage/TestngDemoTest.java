@@ -1,10 +1,11 @@
 package testngpackage;
 
+import org.testng.Assert;
 import org.testng.annotations.*;
 
 public class TestngDemoTest {
 
-/*        @BeforeSuite
+        @BeforeSuite
         public void test_BS(){
             System.out.println("Before Suite");
         }
@@ -20,7 +21,7 @@ public class TestngDemoTest {
         @BeforeMethod
         public void test_BM(){
             System.out.println("Before Method");
-        } */
+        }
         @Test
         public void test_app(){
             System.out.println("Test case no 1");
@@ -32,6 +33,6 @@ public class TestngDemoTest {
         @Test
         public void test_app2(){
             System.out.println("Test case no 3");
-//            Assert.fail();
+            Assert.fail();
         }
 }
