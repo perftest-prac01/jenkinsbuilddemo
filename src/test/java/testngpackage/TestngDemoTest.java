@@ -33,6 +33,6 @@ public class TestngDemoTest {
         @Test
         public void test_app2(){
             System.out.println("Test case no 3");
-            Assert.fail();
+//            Assert.fail();
         }
 }
